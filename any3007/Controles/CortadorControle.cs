@@ -1,9 +1,12 @@
+using LiteDB;
 using Modelos;
 
 namespace Controles;
 
 public class CortadorControle : BaseControle
 {
+  private BsonValue idCortador;
+
   //----------------------------------------------------------------------------
 
   public CortadorControle() : base()
@@ -27,10 +30,12 @@ public class CortadorControle : BaseControle
     return new List<Cortador>(tabela.FindAll());
   }
 
-  //----------------------------------------------------------------------------
+    //----------------------------------------------------------------------------
 
-  public virtual void Apagar(int idCliente)
-  {
+#pragma warning disable CS0114 // Member hides inherited member; missing override keyword
+    public virtual void Apagar(int idCliente)
+#pragma warning restore CS0114 // Member hides inherited member; missing override keyword
+    {
     var collection = liteDB.GetCollection<Cortador>(NomeDaTabela);
     collection.Delete(idCortador);
   }

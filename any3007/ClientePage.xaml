@@ -48,11 +48,7 @@
                        BackgroundColor="White"
                        TextColor="Black"/>
 
-                <Entry x:Name="EmailEntry"
-                        Placeholder="Gmail"
-                       HeightRequest="40"
-                       BackgroundColor="White"
-                       TextColor="Black"/>
+               
 
                 <Entry x:Name="CPFEntry"
                        Placeholder="CPF"

@@ -26,7 +26,7 @@ namespace any3007
     }
     async void OnClientClicked(object sender, EventArgs e)
     {
-        await Navigation.PushAsync(new ClientesPage());
+        await Navigation.PushAsync(new ClientePage());
     }
 
 }

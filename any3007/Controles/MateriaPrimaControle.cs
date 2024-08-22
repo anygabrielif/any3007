@@ -3,9 +3,8 @@ namespace Controles;
 
 public class MateriaprimaControle : BaseControle
 {
-  //----------------------------------------------------------------------------
 
-  public MateriaprimaControle() : base()
+    public MateriaprimaControle() : base()
   {
     NomeDaTabela = "Materiaprima";
   }
@@ -15,7 +14,7 @@ public class MateriaprimaControle : BaseControle
   public virtual Registro? Ler(int idMateriaprima)
   {
     var collection = liteDB.GetCollection<Materiaprima>(NomeDaTabela);
-    return collection.FindOne(d => d.Id == idMateriaprima);
+    return collection.FindOne(d => d.ID == idMateriaprima);
   }
 
   //----------------------------------------------------------------------------
@@ -36,10 +35,10 @@ public class MateriaprimaControle : BaseControle
 
   //----------------------------------------------------------------------------
 
-  public virtual void CriarOuAtualizar(Materiaprima cliente)
+  public virtual void CriarOuAtualizar(Materiaprima materiaprima)
   {
     var collection = liteDB.GetCollection<Materiaprima>(NomeDaTabela);
-    collection.Upsert(Materiaprima);
+    collection.Upsert(materiaprima);
   }
 
   //----------------------------------------------------------------------------
