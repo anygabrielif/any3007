@@ -11,26 +11,26 @@ public partial class MainPage : Microsoft.Maui.Controls.ContentPage
 
     async void OnFornecedorClicked(object sender, EventArgs e)
     {
-        await NavigationPage.PushAsync(new FornecedorPage());
+        Application.Current.MainPage=new FornecedorPage();
     }
 
     async void OnCadastrarMateriaPrimaClicked(object sender, EventArgs e)
     {
-        await NavigationPage.PushAsync(new MateriaPrimaPage());
+        Application.Current.MainPage=new MateriaPrimaPage();
     }
 
     async void OnVendasClicked(object sender, EventArgs e)
     {
-        await NavigationPage.PushAsync(new VendasPage());
+        Application.Current.MainPage=new VendasPage();
     }
     async void ClientesClicked(object sender, EventArgs e)
     {
-        await NavigationPage.PushAsync(new ListaClientePage());
+         Application.Current.MainPage=new ListaClientePage();
     }
 
     async void OnCostureiraClicked(object sender, EventArgs e)
     {
-        await NavigationPage.PushAsync(new CostureiraPage());
+        Application.Current.MainPage=new CostureiraPage();
     }
 
 }

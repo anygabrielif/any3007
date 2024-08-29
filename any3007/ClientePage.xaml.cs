@@ -10,7 +10,6 @@ namespace any3007
         Controles.ClienteControle clienteControle = new Controles.ClienteControle();
         public Cliente cliente;
 
-        public object NomeEntry { get; private set; }
 
         public ClientePage()
         {
