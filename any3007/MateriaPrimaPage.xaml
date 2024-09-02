@@ -6,13 +6,12 @@
              Title="Cadastrar MateriaPrima">
   <VerticalStackLayout>
     <Button Text="Criar Novo Cliente"
-            BackgroundColor="Orange"
+            BackgroundColor="#d982a3"
             FontSize="16"
             TextColor="Black"
-            Clicked="NovoClienteClicked"/>
+            />
     <ListView x:Name="ListaClientes"
               HasUnevenRows="True"
-              ItemSelected="QuandoSelecionarUmItemNaLista"
               HorizontalOptions="Fill"
               VerticalOptions="Fill">
       <ListView.ItemTemplate>

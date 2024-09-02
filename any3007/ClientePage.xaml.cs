@@ -22,7 +22,7 @@ namespace any3007
 
             if (cliente != null)
             {
-                ILabel.Text = cliente.Id.ToString();
+                IdLabel.Text = cliente.Id.ToString();
                 NomeEntry.Text = cliente.Nome;
                 EnderecoEntry.Text = cliente.Endereço;
                 CPFEntry.Text = cliente.CPF;

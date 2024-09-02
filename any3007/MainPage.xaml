@@ -5,44 +5,44 @@
 
    <ScrollView>
         <StackLayout Padding="20" Spacing="15">
-            <Label Text="O que deseja fazer?"
+            <Label Text="O que deseja realizar?"
                    FontSize="24"
                    HorizontalOptions="Fill"
                    VerticalOptions="Center"
                    Padding="10"
-                   BackgroundColor="#1e417d"
+                   BackgroundColor="#db5388"
                    HorizontalTextAlignment="Center"
                    TextColor="White" />
 
-            <Button Text="Cadastrar fornecedor"
-                    BackgroundColor="White"
-                    TextColor="Black"
+            <Button Text="Cadastrar Fornecedor"
+                    BackgroundColor="#d982a3"
+                    TextColor="White"
                     CornerRadius="10"
                     Clicked="OnFornecedorClicked"/>
                   
 
-            <Button Text="Cadastrar Materia Prima"
-                    BackgroundColor="#d6e5ff"
-                    TextColor="Black"
+            <Button Text="Cadastrar Matéria Prima"
+                    BackgroundColor="#d982a3"
+                    TextColor="White"
                     CornerRadius="10"
                     Clicked="OnCadastrarMateriaPrimaClicked"/>
 
-            <Button Text="Gerenciar vendas"
-                    BackgroundColor="#d6e5ff"
-                    TextColor="Black"
+            <Button Text="Gerenciar Vendas"
+                    BackgroundColor="#d982a3"
+                    TextColor="White"
                     CornerRadius="10"
                     Clicked="OnVendasClicked"/>
 
             <Button Text="Gerenciar Clientes"
-                    BackgroundColor="#d6e5ff"
-                    TextColor="Black"
+                    BackgroundColor="#d982a3"
+                    TextColor="White"
                     CornerRadius="10"
                     Clicked="ClientesClicked"/>
 
         
-            <Button Text="Cadastrar costureira"
-                    BackgroundColor="#d6e5ff"
-                    TextColor="Black"
+            <Button Text="Cadastrar Costureira"
+                    BackgroundColor="#d982a3"
+                    TextColor="White"
                     CornerRadius="10"
                     Clicked="OnCostureiraClicked" />
         </StackLayout>

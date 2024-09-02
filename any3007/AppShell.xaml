@@ -8,7 +8,7 @@
     Title="any3007">
 
     <ShellContent
-        Title="Home"
+        Title="Início"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
 

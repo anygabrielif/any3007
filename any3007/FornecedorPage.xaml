@@ -88,7 +88,7 @@
                                     TextColor="Black"
                                     CornerRadius="5"
                                     HeightRequest="50"
-                                    Clicked="CadastrarClicked"/>
+                                    Clicked="OnCadastrarClicked"/>
 
                      </VerticalStackLayout>
               </Frame>

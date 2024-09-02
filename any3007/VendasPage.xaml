@@ -37,7 +37,7 @@
                                     TextColor="Black"
                                     CornerRadius="5"
                                     HeightRequest="50"
-                                    Clicked="OnVenderClicked"/>
+                                   />
                      </VerticalStackLayout>
               </Frame>
        </ScrollView>

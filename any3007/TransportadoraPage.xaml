@@ -9,10 +9,9 @@
             BackgroundColor="Orange"
             FontSize="16"
             TextColor="Black"
-            Clicked="NovoClienteClicked"/>
+            />
     <ListView x:Name="ListaClientes"
               HasUnevenRows="True"
-              ItemSelected="QuandoSelecionarUmItemNaLista"
               HorizontalOptions="Fill"
               VerticalOptions="Fill">
       <ListView.ItemTemplate>
