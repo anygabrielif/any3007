@@ -15,6 +15,7 @@
                      <VerticalStackLayout Spacing="15">
 
                             <Label Text="Cadastro Fornecedor"
+                                   TextColor="#db5388"
                                    FontSize="Large"
                                    FontAttributes="Bold"
                                    HorizontalOptions="Center"
@@ -84,7 +85,7 @@
 
 
                             <Button Text="Cadastrar"
-                                    BackgroundColor="#ADD8E6"
+                                    BackgroundColor="#d982a3"
                                     TextColor="Black"
                                     CornerRadius="5"
                                     HeightRequest="50"

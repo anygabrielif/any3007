@@ -11,6 +11,7 @@
                             BackgroundColor="White">
                      <VerticalStackLayout Spacing="15">
                             <Label Text="Venda do Produto"
+                                   TextColor="#d982a3"
                                    FontSize="Large"
                                    FontAttributes="Bold"
                                    HorizontalOptions="Center"
@@ -33,7 +34,7 @@
                                    Keyboard="Numeric"/>
 
                             <Button Text="Vender"
-                                    BackgroundColor="#ADD8E6"
+                                    BackgroundColor="#d982a3"
                                     TextColor="Black"
                                     CornerRadius="5"
                                     HeightRequest="50"

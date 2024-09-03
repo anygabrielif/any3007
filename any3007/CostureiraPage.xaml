@@ -17,6 +17,7 @@
 
 
         <Label Text="Cadastro Costureira" 
+               TextColor="#d982a3"
                FontSize="Title"
                HorizontalTextAlignment="Center" 
                Grid.Row="0" />
@@ -59,6 +60,7 @@
 
 
         <Button Text="SALVAR" 
+        BackgroundColor="#d982a3"
                 Clicked="Button_Clicked" 
                 Grid.Row="5"
                 Grid.Column="1" />

@@ -62,6 +62,7 @@
                        FontSize="Medium"
                        FontAttributes="Bold"
                        HorizontalOptions="Center"/>
+            
 
             </VerticalStackLayout>
         </Frame>
