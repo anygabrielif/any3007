@@ -15,5 +15,8 @@ namespace any3007
             await DisplayAlert("Cadastrado", "Fornecedor cadastrado com sucesso!", "OK");
         }
     }
+   
+
+
 
 }

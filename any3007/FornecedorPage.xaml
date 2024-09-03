@@ -91,6 +91,9 @@
                                     HeightRequest="50"
                                     Clicked="OnCadastrarClicked"/>
 
+                                  
+
+
                      </VerticalStackLayout>
               </Frame>
        </ScrollView>
